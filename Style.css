@@ -1,0 +1,28 @@
+
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #000000 0%, #3a2a0a 100%);
+  color: #d4af37; /* gold color */
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 1rem 2rem;
+  text-align: center;
+  border-bottom: 2px solid #d4af37;
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 700;
